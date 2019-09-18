@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: whoami1000000/learndocker:helloservice
+    image: whoami1000000/echoservice:0.0.1
     deploy:
       replicas: 5
       resources:
